@@ -127,4 +127,4 @@ Thanks to AUR for Blinking cursor patch (https://aur.archlinux.org/cgit/aur.git/
 
 Thanks to mattiadr who's fork I used as a template (https://github.com/mattiadr/st)
 
-Thanks to Gitlab for being a Microsoft free alternative to Github (https://gitlab.com/)
+Thanks to Gitlab for being a Microsoft free alternative to Github (https://gitlab.com/feloniousbonk/st-bonk)
