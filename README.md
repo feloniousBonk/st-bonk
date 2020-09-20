@@ -15,7 +15,7 @@ In order to build st you need the Xlib header files.
 
 ## Installation
 
-`git clone https://gitlab.com/feloniousbonk/st.git` 
+`git clone https://gitlab.com/feloniousbonk/st-bonk.git` 
 
 Clone this repository into desired directory e.g. `~/.local/share/` or `~/.config/`
 
