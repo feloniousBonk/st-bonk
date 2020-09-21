@@ -121,6 +121,15 @@ Get rid of bold, italic, and roman fonts for a cleaner looking prompt by setting
 ## Scrollback
 Scrollback is still in an experimental state in **st**. You may experience some buggy behavior, but it is still nice to have and works well 99% of the time, so I included it. 
 
+**NOTE**: If you are experiencing weird scrolling issues while in insert mode in vim/nvim. copy and paste this into your `vimrc` file:
+```vim
+ if $TERM ==# 'st-256color'
+      set mouse=a
+      map <ScrollWheelUp> <C-Y>
+      map <ScrollWheelDown> <C-E>
+  endif
+```
+
 ## Desktop Entry
 The shell script `desktopentry.sh` is a quick and dirty shell script that creates a `st.desktop` file @ `~/.local/share/applications`
 and installs it to your system, without having to patch **st** itself. This allows **st** to be accessible from your desktop/application launcher
