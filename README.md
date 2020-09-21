@@ -118,6 +118,9 @@ Get rid of bold, italic, and roman fonts for a cleaner looking prompt by setting
 
 \* set to (**0**) to enable each if desired.
 
+## Scrollback
+Scrollback is still in an experimental state in **st**. You may experience some buggy behavior, but it is still nice to have and works well 99% of the time, so I included it. 
+
 ## Desktop Entry
 The shell script `desktopentry.sh` is a quick and dirty shell script that creates a `st.desktop` file @ `~/.local/share/applications`
 and installs it to your system, without having to patch **st** itself. This allows **st** to be accessible from your desktop/application launcher
