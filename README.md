@@ -113,7 +113,7 @@ Get rid of bold, italic, and roman fonts for a cleaner looking prompt by setting
 
 ## Desktop Entry
 The shell script `desktopentry.sh` is a quick and dirty shell script that creates a `st.desktop` file @ `~/.local/share/applications`
-and installs it to your system, without having to patch **st** itself. This allows st to be accessible from your desktop/application launcher
+and installs it to your system, without having to patch **st** itself. This allows **st** to be accessible from your desktop/application launcher
 
 **Requirements**:  
 
