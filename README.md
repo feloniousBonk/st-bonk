@@ -19,7 +19,7 @@ In order to build **st** you need the Xlib header files.
 
 Clone this repository into desired directory e.g. `~/.local/share/` or `~/.config/`
 
-Edit the file `config.def.h` to configure **st**.
+Edit the file `config.def.h` if you wish to change the configuration of this **st** fork.
 
 Afterwards enter the following command to build and install **st**:
 ```bash
