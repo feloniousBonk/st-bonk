@@ -23,14 +23,23 @@ Enter the following command to build and install **st**:
 ```bash
 sudo make clean install
 ```
-**NOTE**: After installation, the file `config.h` will be created, you can use this file for any further configuration and simply run the command:
+After installation, the file `config.h` will be created, you can use this file for any further configuration and simply run the command:
 
 ```bash
 sudo make install
 ```
 and this will recompile **st** with your updated changes. You can keep `config.def.h` as is, so you always have the inital configuration file on hand if needed. 
 
-\*\* There are several different ways to manage config files; some people use config.def.h for making changes and create a new config.h file each time; do whatever works best for you!
+**NOTE**: There are several different ways to manage config files; some people use `config.def.h` for making changes and create a new `config.h` file each time; If you choose this way make sure to remove `config.h` and then create the new one before recompiling like so:
+
+```bash
+rm config.h
+
+sudo make config.h
+
+sudo make install
+```
+do whatever works best for you!
 
 ## Xresources
 Various options can be configured from `~/.Xresources` using the syntax `st.option: value`:
