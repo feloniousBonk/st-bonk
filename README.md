@@ -34,6 +34,8 @@ sudo make install
 ```
 This will recompile **st** with your updated changes and create a new `config.h` file from the contents of `config.def.h` file each time.
 
+\*\* This is the way I do it, there are several different ways to manage config files; do whatever works best for you!
+
 ## Xresources
 Various options can be configured from `~/.Xresources` using the syntax `st.option: value`:
 - `font`
