@@ -59,7 +59,7 @@ $ xrdb ~/.Xresources
 ```
 or else your changes will not show up.
 
-**NOTE**: If you already have a `~/.Xresources` file, any universal variables you have may effect **st** upon installation.
+**NOTE**: If you already have a `~/.Xresources` file, any universal variables you have may affect **st** upon installation.
 
   For example: `*.foreground: #FFFFFF` will make your foreground color white even though it does not have the prefix **st**, such as: `st.foreground:#FFFFFF`. 
 
