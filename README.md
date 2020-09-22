@@ -148,6 +148,4 @@ Thanks to Suckless.org for creating Simple terminal (https://suckless.org/)
 
 Thanks to AUR for Blinking cursor patch (https://aur.archlinux.org/cgit/aur.git/tree/st-blinking-cursor-20180605.diff?h=st-patched-git)
 
-Thanks to mattiadr who's fork I used as a template (https://github.com/mattiadr/st)
-
 Thanks to Gitlab for being a Microsoft free alternative to Github (https://gitlab.com/)
