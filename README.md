@@ -92,7 +92,6 @@ Edit: (`static unsigned int cursorshape = [1-7]`) in your `config.h` file to set
   4. Underline ("_")
   5. Blinking Bar ("|")
   6. Bar ("|")
-  7. Snowman ("☃")
 
 ## AnyGeometry
 set **st**'s width and height as pixels instead of cells, both from the command line:
