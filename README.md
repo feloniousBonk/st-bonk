@@ -84,7 +84,7 @@ Inspired by plan9's acme and plumber: right-click some selected text to send it 
 You can set the command to execute in the `config.h` variable (`static char *plumber_cmd = " "`), The default is `"xdg-open %s"`, which opens a file or URL in the user's preferred application.
 
 ## Blinking cursor
-Edit: (`static unsigned int cursorshape = [1-7]`) in your `config.h` file to set any of the following cursors: 
+Edit: (`static unsigned int cursorshape = [1-6]`) in your `config.h` file to set any of the following cursors: 
 
   1. Blinking Block ("█")
   2. Block ("█")
