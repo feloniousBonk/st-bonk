@@ -7,6 +7,7 @@ Fork of the [suckless terminal (st)](https://st.suckless.org/) with additional p
 - [disable bold italic fonts](https://st.suckless.org/patches/disable_bold_italic_fonts/)
 - [anygeometry](https://st.suckless.org/patches/anygeometry/)
 - [blinkingcursor](https://aur.archlinux.org/cgit/aur.git/tree/st-blinking-cursor-20180605.diff?h=st-patched-git)
+- [font2](https://st.suckless.org/patches/font2/)
 - [boxdraw](https://st.suckless.org/patches/boxdraw/)
 - [right click to plumb](https://st.suckless.org/patches/right_click_to_plumb/)
 
@@ -71,6 +72,15 @@ or else your changes will not show up.
 **NOTE**: If you already have a `~/.Xresources` file, any universal variables you have may affect **st** upon installation.
 
   For example: `*.foreground: #FFFFFF` will make your foreground color white even though it does not have the prefix **st**, such as: `st.foreground: #FFFFFF`. 
+
+## Font2
+This patch allows you to configure a backup font. This can be used to display glyphs that may not be present in your primary font. In this fork your primary font is set as `mono`, so it will match your system font. `Font2` is set as `Inconsolata` by default since it is a very common font. Change the variable `static char *font2` in `config.h` to whatever glyph supporting font you have on your system.
+
+To search what fonts you have enter the following command:
+```bash
+fc-list :fontformat=TrueType -f "%{family}\n" | sort -u | less
+```
+**NOTE**: Fira Code fonts work well for `Font2` in my experience.
 
 ## Right click to plumb
 
