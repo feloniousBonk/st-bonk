@@ -42,7 +42,7 @@ sudo make install
 do whatever works best for you!
 
 ## Xresources
-Take `config.h`/`config.def.h` out of the equation! Various options can be configured from `~/.Xresources` using the syntax `st.option: value`:
+Take `config.h`/`config.def.h` out of the equation! Various options can be configured from `~/.Xresources` using the syntax `st.option: value` :
 - `font`
 - `color0 ` to `color15`
 - `foreground`
