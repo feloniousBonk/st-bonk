@@ -90,7 +90,7 @@ To search what fonts you have enter the following command:
 ```bash
 fc-list :fontformat=TrueType -f "%{family}\n" | sort -u | less
 ```
-**NOTE**: Fira Code fonts work well for `Font2` in my experience.
+**NOTE**: `Fira Code` fonts work well for `Font2` in my experience. | **Package**: `ttf-fira-code` on Arch-based systems.
 
 ## Disable Bold and Italic fonts
 Get rid of bold, italic, and roman fonts for a cleaner looking prompt by setting the following `config.h` variables to (**1**):
