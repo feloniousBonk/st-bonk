@@ -152,6 +152,11 @@ run by entering:
 ```bash
 bash ./desktopentry.sh
 ``` 
+**NOTE**:There is a [patch](https://st.suckless.org/patches/desktopentry/) for this already, If you'd rather use that you can patch it to **st** by saving the `.diff` file into your **st** directory and entering the command:
+```bash
+patch -p1 < 'patch-file-name.diff'
+```
+\* **ALWAYS** back up your build before attempting a patch.
 
 ### Thanks
 Thanks to Suckless.org for creating Simple terminal (https://suckless.org/)
