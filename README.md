@@ -32,7 +32,6 @@ sudo make install
 and this will recompile **st** with your updated changes. You can keep `config.def.h` as is, so you always have the inital configuration file on hand if needed. 
 
 **NOTE**: There are several different ways to manage config files; some people use `config.def.h` for making changes and create a new `config.h` file each time; If you choose this way make sure to remove `config.h` and then create the new one before recompiling like so:
-
 ```bash
 rm config.h
 
@@ -73,15 +72,6 @@ or else your changes will not show up.
 
   For example: `*.foreground: #FFFFFF` will make your foreground color white even though it does not have the prefix **st**, such as: `st.foreground: #FFFFFF`. 
 
-## Font2
-This patch allows you to configure a backup font. This can be used to display glyphs that may not be present in your primary font. In this fork your primary font is set as `mono`, so it will match your system font. `Font2` is set as `Inconsolata` by default since it is a very common font. Change the variable `static char *font2` in `config.h` to whatever glyph supporting font you have on your system.
-
-To search what fonts you have enter the following command:
-```bash
-fc-list :fontformat=TrueType -f "%{family}\n" | sort -u | less
-```
-**NOTE**: Fira Code fonts work well for `Font2` in my experience.
-
 ## Right click to plumb
 
 Inspired by plan9's acme and plumber: right-click some selected text to send it to the plumbing program of your choosing:
@@ -92,6 +82,26 @@ Inspired by plan9's acme and plumber: right-click some selected text to send it 
 - etc
 
 You can set the command to execute in the `config.h` variable (`static char *plumber_cmd = " "`), The default is `"xdg-open %s"`, which opens a file or URL in the user's preferred application.
+
+## Font2
+This patch allows you to configure a backup font. This can be used to display glyphs that may not be present in your primary font. In this fork your primary font is set as `mono`, so it will match your system font. `Font2` is set as `Inconsolata` by default since it is a very common font. Change the variable `static char *font2` in `config.h` to whatever glyph supporting font you have on your system.
+
+To search what fonts you have enter the following command:
+```bash
+fc-list :fontformat=TrueType -f "%{family}\n" | sort -u | less
+```
+**NOTE**: Fira Code fonts work well for `Font2` in my experience.
+
+## Disable Bold and Italic fonts
+Get rid of bold, italic, and roman fonts for a cleaner looking prompt by setting the following `config.h` variables to (**1**):
+
+  * `int disablebold = 1;`
+
+  * `int disableitalic = 1;`
+
+  * `int disableroman = 1;`
+
+\* set to (**0**) to enable each if desired.
 
 ## Blinking cursor
 Edit: (`static unsigned int cursorshape = [1-6]`) in your `config.h` file to set any of the following cursors: 
@@ -117,17 +127,6 @@ or the `config.h` file variables:
  * `static unsigned int height = x;`
 
 \* set (`static Geometry geometry = CellGeometry;`) to set size by cell instead of pixels.
-
-## Disable Bold and Italic fonts
-Get rid of bold, italic, and roman fonts for a cleaner looking prompt by setting the following `config.h` variables to (**1**):
-
-  * `int disablebold = 1;`
-
-  * `int disableitalic = 1;`
-
-  * `int disableroman = 1;`
-
-\* set to (**0**) to enable each if desired.
 
 ## Scrollback
 Scrollback is still in an experimental state in **st**. You may experience some buggy behavior, but it is still nice to have and works well 99% of the time, so I included it. 
