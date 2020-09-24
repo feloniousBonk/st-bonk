@@ -16,7 +16,7 @@ In order to build **st** you need the Xlib header files.
 
 ## Installation
 
-`git clone https://gitlab.com/feloniousbonk/st-bonk.git` 
+`git clone https://github.com/feloniousBonk/st-bonk.git` 
 
 Clone this repository into desired directory e.g. `~/.local/share/` or `~/.config/`
 
@@ -162,5 +162,3 @@ patch -p1 < 'patch-file-name.diff'
 Thanks to Suckless.org for creating Simple terminal (https://suckless.org/)
 
 Thanks to AUR for Blinking cursor patch (https://aur.archlinux.org/cgit/aur.git/tree/st-blinking-cursor-20180605.diff?h=st-patched-git)
-
-Thanks to Gitlab for being a Microsoft free alternative to Github (https://gitlab.com/)
