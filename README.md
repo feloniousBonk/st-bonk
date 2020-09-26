@@ -159,6 +159,6 @@ patch -p1 < 'patch-file-name.diff'
 \* **ALWAYS** back up your build before attempting a patch.
 
 ### Thanks
-Thanks to Suckless.org for creating Simple terminal (https://suckless.org/)
+Thanks to Suckless.org for creating [Simple terminal](https://suckless.org/)
 
-Thanks to AUR for Blinking cursor patch (https://aur.archlinux.org/cgit/aur.git/tree/st-blinking-cursor-20180605.diff?h=st-patched-git)
+Thanks to AUR for [Blinking cursor patch](https://aur.archlinux.org/cgit/aur.git/tree/st-blinking-cursor-20180605.diff?h=st-patched-git)
