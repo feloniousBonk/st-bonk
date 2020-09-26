@@ -7,7 +7,7 @@ XDG_DESKTOP_HOME=${XDG_DESKTOP_HOME:-${HOME}/.local/share/applications}
 DESKTOP_FILE="${XDG_DESKTOP_HOME}/st.desktop"
 
 if [ -e $DESKTOP_FILE ]; then
-    printf '%s ' "$DESKTOP_FILE already exists."
+    printf '%s ' "$DESKTOP_FILE already exists..."
 else
     DESKTOP_INFO="\
 [Desktop Entry]
