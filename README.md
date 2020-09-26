@@ -110,8 +110,8 @@ Edit: (`static unsigned int cursorshape = [1-6]`) in your `config.h` file to set
   2. Block ("█")
   3. Blinking Underline ("_")
   4. Underline ("_")
-  5. Blinking Bar ("|")
-  6. Bar ("|")
+  5. Blinking Bar ("\|")
+  6. Bar ("\|")
 
 ## AnyGeometry
 set **st**'s width and height as pixels instead of cells, both from the command line:
