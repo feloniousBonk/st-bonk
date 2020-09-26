@@ -15,9 +15,9 @@ Fork of the [suckless terminal (st)](https://st.suckless.org/) with additional p
 In order to build **st** you need the Xlib header files.
 
 ## Installation
-
-`git clone https://github.com/feloniousBonk/st-bonk.git` 
-
+```bash
+git clone https://github.com/feloniousBonk/st-bonk.git 
+```
 Clone this repository into desired directory e.g. `~/.local/share/` or `~/.config/`
 
 Enter the following command to build and install **st**:
