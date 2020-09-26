@@ -1,0 +1,4 @@
+#this file does not affect st, feel free to delete it.
+theme: jekyll-theme-minimal
+logo: /desktop_entry/st_logo.png
+show_downloads: true
