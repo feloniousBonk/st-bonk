@@ -1,3 +1,6 @@
+![Screenshot](pngwing.com(1).png)
+
+
 # st - simple terminal
 Fork of the [suckless terminal (st)](https://st.suckless.org/) with additional patches.
 
