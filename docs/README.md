@@ -15,7 +15,7 @@ Fork of the [suckless terminal (st)](https://st.suckless.org/) with additional p
 - [right click to plumb](https://st.suckless.org/patches/right_click_to_plumb/)
 
 ## Requirements
-In order to build **st** you need the Xlib header files.
+In order to build **st** you need the `Xlib` header files.
 
 ## Installation
 ```bash
