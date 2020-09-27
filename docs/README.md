@@ -1,4 +1,4 @@
-![Screenshot](st_logo.png)
+![Screenshot](st_banner.png)
 
 
 # st - simple terminal
