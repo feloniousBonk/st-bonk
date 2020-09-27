@@ -1,4 +1,4 @@
-![screenshot](/docs/st_ban.png)
+![screenshot](/docs/st_bann.png)
 # st - simple terminal
 Fork of the [suckless terminal (st)](https://st.suckless.org/) with additional patches.
 
