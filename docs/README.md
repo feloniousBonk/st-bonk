@@ -1,4 +1,4 @@
-![Screenshot](pngwing.com(1).png)
+![Screenshot](st_logo.png)
 
 
 # st - simple terminal
