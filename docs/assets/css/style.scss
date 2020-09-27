@@ -9,18 +9,14 @@ body {
 	font-weight: 400;
 }
 
-pre {
-	padding: 8px 15px;
-	border-radius: 5px;
-	border: 1px solid #d0d0d0;
-	overflow-x: auto;
-}
-
 code, pre {
 	font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
 	color: #333;
 	background-color: #f1f1f1;
+	padding: 8px 15px;
+	border-radius: 5px;
 	border: 1px solid #d0d0d0;
+	overflow-x: auto;
 }
 
 .highlight {
