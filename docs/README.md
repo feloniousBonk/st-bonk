@@ -58,7 +58,7 @@ Various options can be configured from `~/.Xresources` using the syntax `st.opti
 - `shell`
 - `xfps` - frames per second **st** should at maximum draw to the screen
 - `actionfps`
-- `blinktimeout` - blinking timeout (set to 0 to disable blinking) for the terminal blinking attribute
+- `blinktimeout` - terminal blinking attribute (set to 0 to disable blinking)
 - `bellvolume`
 - `tabspaces`
 - `borderpx`
