@@ -84,7 +84,7 @@ Inspired by plan9's acme and plumber: right-click some selected text to send it 
 - jump from logs to editor, at the specified line/col
 - etc
 
-You can set the command to execute in the `config.h` variable (`static char *plumber_cmd = " "`), The default is `"xdg-open %s"`, which opens a file or URL in the user's preferred application.
+You can set the `config.h` variable (`static char *plumber_cmd = " "`) to execute your custom command, The default is `"xdg-open %s"`, which opens a file or URL in the user's preferred application.
 
 ## Font2
 This patch allows you to configure a secondary font. This can be used to display glyphs that may not be present in your primary font. In this fork your primary font is set as `mono`, so it will match your system font. `Font2` is set as `Inconsolata` by default since it is a very common font. Change the variable (`static char *font2`) in `config.h` to whatever glyph supporting font you have on your system.
