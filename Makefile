@@ -31,6 +31,7 @@ st: $(OBJ)
 	$(CC) -o $@ $(OBJ) $(STLDFLAGS)
 
 clean:
+	rm -rf ./docs
 	rm -f st $(OBJ) st-$(VERSION).tar.gz
 
 dist: clean
