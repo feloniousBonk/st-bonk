@@ -1,4 +1,4 @@
-![Screenshot](st_ban.png)
+![Screenshot](st_bann.png)
 
 
 # st - simple terminal
