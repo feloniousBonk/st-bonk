@@ -31,10 +31,10 @@ st: $(OBJ)
 	$(CC) -o $@ $(OBJ) $(STLDFLAGS)
 
 clean:    
-	cp docs/.Xresources ./
-	rm -rf docs/
-	mkdir -p docs/
-	mv .Xresources docs/
+	rm -rf ./docs/assets/css
+	rm *.md
+	rm *.yml
+	rm *.png
 	rm -f st $(OBJ) st-$(VERSION).tar.gz
 
 dist: clean
