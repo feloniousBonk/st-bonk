@@ -229,6 +229,9 @@ ResourcePref resources[] = {
 		{ "borderpx",      INTEGER, &borderpx       },
 		{ "cwscale",       FLOAT,   &cwscale        },
 		{ "chscale",       FLOAT,   &chscale        },
+	        { "disablebold",   INTEGER, &disablebold    },
+	        { "disableitalic", INTEGER, &disableitalic  },
+	        { "disableroman",  INTEGER, &disableroman   },
 };
 
 /*
