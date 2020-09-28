@@ -17,8 +17,9 @@ In order to build **st** you need the `Xlib` header files.
 
 ## Installation
 
-`git clone https://gitlab.com/feloniousbonk/st-bonk.git` 
-
+```bash
+git clone https://gitlab.com/feloniousbonk/st-bonk.git` 
+```
 Clone this repository into desired directory e.g. `~/.local/share/` or `~/.config/`
 
 Enter the following command to build and install **st**:
