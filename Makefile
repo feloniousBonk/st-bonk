@@ -31,10 +31,10 @@ st: $(OBJ)
 	$(CC) -o $@ $(OBJ) $(STLDFLAGS)
 
 clean:    
-	rm -rf ./docs/assets/css
-	rm *.md
-	rm *.yml
-	rm *.png
+	rm -rf ./docs/assets
+	rm ./docs/*.md
+	rm ./docs/*.yml
+	rm ./docs/*.png
 	rm -f st $(OBJ) st-$(VERSION).tar.gz
 
 dist: clean
