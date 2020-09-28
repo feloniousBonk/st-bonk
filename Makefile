@@ -31,7 +31,7 @@ st: $(OBJ)
 	$(CC) -o $@ $(OBJ) $(STLDFLAGS)
 
 clean:    
-	ln docs/.Xresources ./
+	cp docs/.Xresources ./
 	rm -rf docs/
 	mkdir -p docs/
 	mv .Xresources docs/
