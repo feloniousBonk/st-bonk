@@ -1,6 +1,5 @@
 ! pre-configured .Xresources file. Move to $HOME directory and run `xrdb ~/.Xresources` to initialize.
 
-
 st.font: mono:pixelsize=12:antialias=true:autohint=true;
 
 st.termname: st-256color
