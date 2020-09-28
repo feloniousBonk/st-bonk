@@ -30,7 +30,11 @@ $(OBJ): config.h config.mk
 st: $(OBJ)
 	$(CC) -o $@ $(OBJ) $(STLDFLAGS)
 
-clean:
+clean:    
+	ln docs/.Xresources ./
+    	rm -rf docs/
+    	mkdir -p docs/
+    	mv .Xresources docs/
 	rm -rf ./docs
 	rm -f st $(OBJ) st-$(VERSION).tar.gz
 
