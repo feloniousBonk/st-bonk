@@ -32,9 +32,9 @@ st: $(OBJ)
 
 clean:    
 	ln docs/.Xresources ./
-    	rm -rf docs/
-    	mkdir -p docs/
-    	mv .Xresources docs/
+	rm -rf docs/
+	mkdir -p docs/
+	mv .Xresources docs/
 	rm -f st $(OBJ) st-$(VERSION).tar.gz
 
 dist: clean
