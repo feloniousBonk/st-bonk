@@ -62,6 +62,9 @@ Various options can be configured from `~/.Xresources` using the syntax `st.opti
 - `borderpx`
 - `cwscale` - Kerning / character bounding-box multipliers
 - `chscale`
+- `disablebold`
+- `disableitalic`
+- `disableroman`
 
 After updating `~/.Xresources`, remember to execute the command:
 ```bash
