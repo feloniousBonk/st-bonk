@@ -78,6 +78,8 @@ or else your changes will not show up.
 
   For example: `*.foreground: #FFFFFF` will make your foreground color white even though it does not have the prefix **st**, such as: `st.foreground: #FFFFFF`. 
 
+\* I have supplied a pre-configured `.Xresources` file with this fork. Move the file to your `$HOME` directory if you wish to use it.
+
 ## Right click to plumb
 
 Inspired by plan9's acme and plumber: right-click some selected text to send it to the plumbing program of your choosing:
