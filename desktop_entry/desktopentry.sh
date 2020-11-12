@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Quick and dirty shell script to make suckless st accessible from desktop, without having to patch src.
 # Requires package:  `desktop-file-utils`
